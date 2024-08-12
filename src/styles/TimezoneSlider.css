@@ -1,0 +1,24 @@
+
+/* TimezoneSlider.css */
+.timezone-slider {
+    margin: 20px 0;
+  }
+  
+  .timezone-slider input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .timezone {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .timezone span {
+    font-weight: bold;
+  }
+  

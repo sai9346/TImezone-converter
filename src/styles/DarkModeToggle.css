@@ -1,0 +1,40 @@
+/* DarkModeToggle.css */
+.dark-mode-toggle {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dark-mode-toggle label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .dark-mode-toggle input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .App {
+    background-color: #444;
+  }
+  
+  body.dark-mode .timezone-list-item {
+    border-bottom: 1px solid #555;
+  }
+  
+  body.dark-mode .timezone-list-item button {
+    background-color: #e74c3c;
+  }
+  
+  body.dark-mode .timezone-slider input[type="range"] {
+    background-color: #555;
+  }
+  
